@@ -1,0 +1,59 @@
+## Languages Used
+1. PHP VERSION (8.1)
+2. HTML
+3. CSS
+4. Javascript
+5. Bootstrap
+## Features
+ 1. Student Recorde Management
+2. Instructor Record Management
+3. Notice Management
+4. User Feedbacks
+5. Password Reset And Forgot Password
+6. Front Page
+
+
+## Screen Shoots
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+
+## ✅ HOW TO USE?
+
+  <b>Pre-requirement</b> : Make sure you have both php and MySQL installed on your PC. You can also use XAMPP which provide BOTH (php + MySQL).<br><br>
+
+ <b>Step-1 :</b> Start XAMPP <br>
+   Open XAMPP Control panel and start the Apache And MySQL Server  <br>
+
+ <b>Step-2 :</b> Create Database <br>
+   <b>The schema file of the database setup is available at database/_sms.sql </b>
+   <br><br>
+   From you xampp open phpmyadmin by clicking on admin button in front of MySQL -> create a database with the name '_sms' -> import the  database/_sms.sql file to complete the database setup.<br>
+
+<b>Step-3 :</b> Placement <br>
+   <b> If you have xampp installed on your PC you need to place the downloaded folder on 'htdocs directory' </b>
+   <br><br>
+   Copy the downloaded folder and place it into htdocs folder. Located at <i>C:\xampp\htdocs</i>
+   <br><br>
+   make sure your directory setup is like : <i>C:\xampp\htdocs\school-management-system\ </i> : and index.php file is available on the that location
+
+<b>Step-4 :</b> Run the application <br>
+   <b> visit on the url : <i>http://localhost/school-management-system</i> </b>
+   <br> Visit to the given URL to see the running website
+
+## 🔐 Emails and Passwords
+
+The project comes with default user on each panel you can remove and update them also.<br>
+The **Credentials** for default logins are
+
+| Panel      |  Email             | Password      |
+| -------:   |  :---------------- | :------:      |
+| Admin      | admin              |Ecofrank@2000  |
+| Instructor | MTBI/S/001         | MTBI/S/001    |
+| Student    | MTBI/23/DIT/001    |MTBI/23/DIT/001|
+
+- Note : **Password for New Instructors and Students:**  
+   The default password for newly created teacher and student accounts is set to their **ID**.  
+   - Example: If the StudentID is **MTBI/23/DIT/001**, the password would be **MTBI/23/DIT/001**.
+   - And the username is the StudentID and InstructorID. 
