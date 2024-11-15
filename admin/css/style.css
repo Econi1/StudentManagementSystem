@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    padding: 0;
+    background-image: url("/SMS/public/images/shape.png");
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+header nav{
+    text-align: center;
+}
+header nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header nav a:hover {
+color: #ddd;
+}
+h1{
+    text-align: center;
+    margin-top: 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.actions a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.actions a.edit {
+    background-color: #4CAF50;
+}
+
+.actions a.delete {
+    background-color: #f44336;
+}
+
+.actions a:hover {
+    opacity: 0.8;
+}

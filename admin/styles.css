@@ -1,0 +1,96 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+}
+.navbar-brand {
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    color: #fff;
+}
+.sidebar h3 {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+.sidebar ul li a {
+    color: #adb5bd;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+.sidebar ul li a:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+/* Main Content */
+.wrapper {
+    margin-left: 250px;
+    padding: 20px;
+}
+.main-content {
+    padding-top: 20px;
+}
+.card-container .card {
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.card-container .card:hover {
+    transform: scale(1.05);
+}
+
+/* Charts */
+.chart-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #adb5bd;
+    padding: 20px 0;
+    margin-left: 250px;
+    display: flex;
+}
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+}
+.social-icons a {
+    color: #adb5bd;
+    margin-right: 10px;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 50%;
+}
